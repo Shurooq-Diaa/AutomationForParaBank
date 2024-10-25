@@ -1,11 +1,11 @@
-##ParaBank Automation Testing -Graduation Project[DEPI]
+## ParaBank Automation Testing -Graduation Project[DEPI]
 
-#Automated Testing Framework for ParaBank Web Application & APIs
+# Automated Testing Framework for ParaBank Web Application & APIs
 
-##Overview
+## Overview
 This project focuses on developing an Automated Testing Framework using Selenium and Cucumber for end-to-end testing of a web application. The framework is designed to cover UI, functionality, and API testing to ensure the reliability and performance of the web application. Additionally, the project involves report generation and bug tracking using tools like JUnit, Postman, and Jira. This test automation project targets the ParaBank demo site, simulating an online banking website with Selenium WebDriver and Java.
 
-##Team Members
+## Team Members
 •	Basant Ehab
 •	Farida Amr
 •	Menna Mohamed
@@ -13,7 +13,7 @@ This project focuses on developing an Automated Testing Framework using Selenium
 •	Shurooq Diaa
 •	Yasmin Mohamed
 
-##Features Covered
+## Features Covered
 The project includes automated testing for the following features of ParaBank:
 •	Registration
 •	Login
@@ -26,25 +26,24 @@ The project includes automated testing for the following features of ParaBank:
 •	Log Out
 •	Home
 
-##Project Objective
+## Project Objective
 The goal is to develop an automated testing framework for comprehensive testing of the ParaBank web application. This includes:
-
 •	UI and functionality testing using Selenium and Cucumber.
 •	API testing using Postman.
 •	Generating detailed test reports.
 •	Bug Reporting: Tracking issues and reporting using Jira with Zephyr Squad.
 
-##Key Activities
+## Key Activities
 •	Manual Testing on Jira using Zephyr Squad: Created test cases and organized test cycles.
 •	API Testing on Postman: Developed and ran collections of requests for thorough API validation.
 •	Automated Testing: Developed Cucumber test scripts on IntelliJ for various application features.
 
-##Reporting and Documentation:
+## Reporting and Documentation:
 •	Created a summary report from Jira.
 •	Exported test cases to Excel.
 •	Delivered a project presentation.
 
-##Technologies Used
+## Technologies Used
 •	Selenium WebDriver for browser automation.
 •	Cucumber for BDD and test case structuring.
 •	Postman for API testing.
@@ -52,7 +51,7 @@ The goal is to develop an automated testing framework for comprehensive testing 
 •	JUnit for report generation and testing.
 •	Maven as the build tool for project management.
 
-##Prerequisites
+## Prerequisites
 •	JDK 22.0.2
 •	Maven 3.9.6
 •	Selenium Webdriver 4.25.0
@@ -61,10 +60,13 @@ The goal is to develop an automated testing framework for comprehensive testing 
 •	cucumber-junit 7.18.1
 •	javafaker 1.0.2
 
-##Setup Instructions
+## Setup Instructions
 •	To successfully run this project:
+
 •	Locate the DataPrep and ScreenShots files in src/test/java/Data.
+
 •	Update the file path in data.xlsx to match the path on your device.
+
 •	In the Hooks file, update the report path on line 31 to match your system’s file path for seamless report generation.
 
 
